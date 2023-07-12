@@ -49,9 +49,9 @@ const QuickActions = () => {
   return (
     <>
       <div className="flex flex-col lg:flex-row lg:justify-between justify-center w-full gap-5 py-5">
-        <div className="bg-white px-[35px] py-[25px] lg:w-[100%] rounded-xl shadow-md">
+        <div className="bg-white px-[35px] py-[25px] lg:w-[100%] md:w-[50%]  rounded-xl shadow-md">
           <BaseTitle title={"Quick Actions"} />
-          <div className="grid lg:grid-cols-6 lg:gap-3 gap-3 items-center mt-5">
+          <div className="grid lg:grid-cols-6 lg:gap-4 grid-cols-2 gap-3 items-center mt-5">
             {actions.map((items, index) => {
               return (
                 <div key={index} className="cursor-pointer lg:min-w-[100px] min-h-[84px] flex rounded-lg gap-2 lg:p-[20px] p-[10px] items-center bg-gradient-to-r from-[#FF9900] to-[#FFD584]">
