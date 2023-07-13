@@ -84,6 +84,7 @@ const QuickActions = () => {
                 </div>
               );
             })}
+             {renderModal()}
           </div>
         </div>
 

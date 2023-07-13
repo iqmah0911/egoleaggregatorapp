@@ -30,7 +30,7 @@ const Prompt = ({ onNext, close }) => {
     setSelectedItemIndex(index);
   };
 
-  const handleNext = () => {
+  const handlenext = () => {
     //handle api calls and all here
     onNext(); // Invoke the onNext callback to switch to the next component
   };
@@ -102,7 +102,7 @@ const Prompt = ({ onNext, close }) => {
             <Button
               style={"text-[#ffffff]"}
               text={"Proceed"}
-              onClick={handleNext}
+              onClick={handlenext}
             />
             <Button style={"bg-[#E4E4E4] text-[#7E7E7E]"} text={"Cancel"} />
           </div>
